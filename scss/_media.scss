@@ -1,0 +1,152 @@
+@media (max-width: 1366px) {
+    .header_btn{
+        margin: 8px 0 0 23.4%;
+    }
+    .promo_btn{
+        margin-left: 11%;
+    }
+    .promo_block{
+        transform: translate(850px, 123px);
+    }
+    .footer_line{
+        display: none;
+    }
+    .footer_contacts{
+        transform: translateX(0);
+    }
+    .review{
+        min-height: 840px;
+        &_slider_wrap{
+            display: none;
+        }
+        &_title{
+            display: none;
+        }
+    }
+    .slider_arrow_left, .slider_arrow_right{
+        display: none;
+    }
+}
+@media (max-width: 1024px) {
+    .header_nav{
+        margin-left: 0;
+    }
+    .promo_header{
+        padding-left: 20px;
+    }
+    .promo_btn{
+        margin-left: 6.3%;
+    }
+    .promo_block{
+        display: none;
+    }
+    .promo_subblock{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .promo_subtitle{
+        width: 80%;
+    }
+    .review{
+        &_sponsors{
+            flex-wrap: wrap;
+            &_img{
+                margin-top: 5px;
+            }
+        }
+        &_block{
+            height: 330px;
+        }
+        .footer{
+            padding: 0 10%;
+        } 
+    }
+}
+@media (max-width: 570px) {
+    .review{
+        &_block{
+            height: 500px;
+            padding-top: 14px;
+        } 
+        &_subtitle{
+            margin-top: 20px;
+        }
+    }
+    video{
+        width: 400px;
+        height: 240px;
+    }
+    .promo_header_nav{
+        display: none;
+    }
+    .promo_subtitle{
+        margin-top: 20px;
+    }
+    .promo_subblock{
+        margin-top: 20px;
+        &_img{
+            margin-top: 20px;
+            width: 100px;
+            height: 100px;
+            img{
+                width: 60px;
+            }
+        }
+    }
+    .promo_btn_sub{
+        width: 130px;
+        height: 37px;
+        font-size: 11px;
+    }
+    .promo_subscribe{
+        width: 130px;
+        height: 37px;
+        font-size: 11px;
+    }
+    .footer{
+        padding: 0 5%;
+        &_hr{
+            width: 100%;
+        }
+        &_group :nth-child(2){
+            transform: translateX(0);
+        }
+    }
+    hr{
+        display: none;
+    }
+}
+@media (max-width: 428px) {
+    .header_link{
+        font-size: 12px;
+    }
+    .promo_btn{
+        width: 130px;
+        height: 37px;
+    }
+    .promo_header{
+        height: 70px;
+    }
+    .promo_header_img{
+        img{
+            width: 110px;
+        }
+    }
+    .promo_subblock_descr, .promo_subtitle{
+        font-size: 15px;
+    }
+    .footer_forum_text, .footer_contacts_text{
+        font-size: 13px;
+    }
+    .footer{
+        span{
+            font-size: 15px;
+        }
+    }
+    .footer_group_text{
+        font-size: 11px;
+    }
+    .sponsors_btn{
+        margin-bottom: 20px;
+    }
+}
