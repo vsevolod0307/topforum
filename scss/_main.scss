@@ -548,6 +548,7 @@ video{
         display: block;
         margin: 0 auto;
         margin-top: 16px;
+        margin-bottom: 20px;
     }
     &_value{
         color: #c99c47;
@@ -649,7 +650,6 @@ video{
         font-size: 13px;
         font-family: 'Roboto Regular';
         cursor: pointer;
-        margin-bottom: 20px;
     }
 }
 .look{
